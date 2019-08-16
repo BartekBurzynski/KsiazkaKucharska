@@ -16,10 +16,13 @@
         <span th:text=" ${recipe.description}"></span></br></br>
         <span>Lajki </span>
         <span th:text=" ${recipe.likes}"></span></br></br>
-
+        <a th:href="|/recipe/usun?recipeId=${recipe.id}|">Usun przepis</a>
 
     </li>
+
+    <a th:href="|/recipe/dodaj?categoryId=${category.id}|">Dodaj nowy przepis</a>
 </ul>
+<a href="/"> Powrót </a>
 
 </body>
 </html>

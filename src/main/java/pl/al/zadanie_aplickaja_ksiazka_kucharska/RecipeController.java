@@ -4,14 +4,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @RequestMapping("/recipe")
 @Controller
 public class RecipeController {
-private RecipeRepository recipeRepository;
-private CategoryRepository categoryRepository;
+    private RecipeRepository recipeRepository;
+    private CategoryRepository categoryRepository;
 
     public RecipeController(RecipeRepository recipeRepository, CategoryRepository categoryRepository) {
         this.recipeRepository = recipeRepository;
@@ -27,6 +28,19 @@ private CategoryRepository categoryRepository;
         model.addAttribute("recipe", recipe);
         model.addAttribute("category", categoryRepository.findAll());
         return "categoryDodaj";
+    }
+
+    @PostMapping("/dodaj")
+    public String add(Recipe recipe) {
+        recipeRepository.save(recipe);
+        return "redirect:/category/" + recipe.getCategory().getId();
+    }
+
+    @GetMapping("/usun")
+    public String delete(@RequestParam long recipeId) {
+        recipeRepository.deleteById(recipeId);
+        return "home";
 
     }
+
 }

@@ -18,10 +18,10 @@ public class CategoryDataController {
     }
 
     @GetMapping("/category/{id}")
-    public String home(@PathVariable Integer id, Model model){
+    public String home(@PathVariable Integer id, Model model) {
         Optional<Category> optional = categoryRepository.findById(id);
 
-        if(optional.isPresent()){
+        if (optional.isPresent()) {
             Category category = optional.orElse(null);
             model.addAttribute("category", category);
             return "category";

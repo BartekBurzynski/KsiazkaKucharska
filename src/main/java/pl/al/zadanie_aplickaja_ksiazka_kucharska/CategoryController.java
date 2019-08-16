@@ -7,10 +7,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class CategoryController {
-    @Autowired private CategoryRepository categoryRepository;
+    @Autowired
+    private CategoryRepository categoryRepository;
 
     @GetMapping("/")
-    public String home(Model model){
+    public String home(Model model) {
 
 
         model.addAttribute("kategoria", categoryRepository.findAll());

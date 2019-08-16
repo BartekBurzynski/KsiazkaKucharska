@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/recipe/dodaj" method="post" th:object="${recipe}">
+
+    <input type="text" th:field="*{name}" placeholder="Nazwa potrawy"/>
+    <input type="text" th:field="*{ingredients}" placeholder="Składniki"/>
+    <input type="text" th:field="*{description}" placeholder="Opis"/>
+
+    <select th:field="*{category}">
+
+        <option th:each="category: ${category}"
+                th:value="${category.id}"
+                th:text="${category.name}">
+        </option>
+
+    </select>
+
+    <input type="submit" value="Dodaj!"/>
+
+    <a href="/"> Powrót </a>
+
+</form>
+</body>
+</html>
