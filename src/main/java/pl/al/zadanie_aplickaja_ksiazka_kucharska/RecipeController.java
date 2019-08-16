@@ -39,7 +39,7 @@ public class RecipeController {
     @GetMapping("/usun")
     public String delete(@RequestParam long recipeId) {
         recipeRepository.deleteById(recipeId);
-        return "home";
+        return "recipes";
 
     }
 
