@@ -1,16 +1,19 @@
-package pl.al.zadanie_aplickaja_ksiazka_kucharska;
+package pl.bb.ksiazka_kucharska.Controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import pl.bb.ksiazka_kucharska.Repository.CategoryRepository;
+import pl.bb.ksiazka_kucharska.model.Recipe;
+import pl.bb.ksiazka_kucharska.Repository.RecipeRepository;
 
 @RequestMapping("/recipe")
 @Controller
 public class RecipeController {
+
     private RecipeRepository recipeRepository;
     private CategoryRepository categoryRepository;
 

@@ -1,4 +1,6 @@
-package pl.al.zadanie_aplickaja_ksiazka_kucharska;
+package pl.bb.ksiazka_kucharska.model;
+
+import pl.bb.ksiazka_kucharska.model.Category;
 
 import javax.persistence.*;
 

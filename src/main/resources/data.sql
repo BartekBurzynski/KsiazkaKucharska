@@ -15,45 +15,52 @@ VALUES
 
 
 
-(1, 'Zupa pomidorowa', '    natka pietruszki, 1 szt.
-    sól, 1 szczypta
-    śmietana, 12 dag
-    mąka , 3 dag
-    pomidor, 40 dag
-    wywar z włoszczyzny, 6 szkl.', 'Pomidory umyć, pokrajać na części, zalać małą ilością wrzącej wody, rozgotować pod przykryciem na silnym ogniu. Przetrzeć przez sito, połączyć z przecedzonym wywarem. Mąkę rozmieszać ze śmietaną, wlać do zupy, zagotować. Doprawić do smaku solą, dodać posiekaną zieleninę ', 0),
+(1, 'Rosół', '    kawałęk mięsa wołowego – rostbeefu (ilość wołowiny zależna od tego, jak bardzo wyczuwalny ma być jej smak w rosole, 200 do 300 gram powinno być OK), kilogram porcji rosołowej z kurczaka, jedna duża marchew, jedna pietruszka, kawałek selera
+
+    wywar z włoszczyzny, 6 szkl.', 'Na początek najważniejsze do zapamiętania: Dobry domowy rosół musi gotować się bardzo długo. Jeżeli ma być jak u babci, nie można robić niczego na skróty. Jedną z głównych tajemnic królowej zup jest nieśpieszny sposób gotowania. Nie wolno dopuścić, aby rosół gotował się zbyt gwałtownie – powinien ledwie „pyrkać” :-) Taki sposób przyrządzania daje gwarancję, że Twój rosół będzie klarowny ', 0),
 
 
 
- (1, 'Zupa cebulowa', '    natka pietruszki, 1 szt.
-    ziemniak, 500 g
-    pietruszka, 1 szt.
-    żeberka, 1 kg
-    sól, 1 łyżecz.
+ (1, 'Krem z pieczarek', '    250g pieczarek
+    1 cebula
+    750ml wywaru warzywnego lub mięsnego
+    1 łyżka oleju
+    1 łyżka masła
+    2 łyżki mąki pszennej
+    50ml śmietany 30- 36%
+    sól, pieprz
+    trochę natki pietruszki
+    groszek ptysiowy', 'Cebulę obrać i pokroić w kostkę.
+    Pieczarki oczyścić i pokroić w plasterki.
+    Natkę pietruszki umyć, osuszyć i posiekać.
+    Na łyżce oleju przysmażyć cebulę i pieczarki. Odstawić na bok.
+    Masło roztopić. Dodać mąkę i smażyć chwilkę ciągle mieszając, aż mąka lekko się zarumieni. Dodać zimny wywar szybko mieszając trzepaczką tak, aby nie powstały grudki. Następnie dodać przesmażone pieczarki z cebulą. Całość zmiksować blenderem na krem. Dodać śmietanę i natkę pietruszki. Doprawić solą i pieprzem.
+    Zupę rozlać do talerzy i posypać groszkiem ptysiowym', 0),
 
-    mielony pieprz, 1 łyżecz.
-    cebula, 500 g
-    marchew, 3 szt.
-    seler, 1 szt.', 'Do 3 l wody włożyć po porcjowane żeberka . Przyprawić solą oraz pieprzem i ugotować bulion . Cebule obrać i pokroić w piórka', 0),
-
- (6, 'Babeczki z budyniem', '    mąka , 60 dag
-    masło, 20 dag
-
-    cukier puder, 20 dag
-    jajka, 4 uncja ', 'Zagnieść i wstawić na 1 godz do lodówki. Po tym czasie cienko rozwałkować i wklejać foremki, wypełnić zimnym budyniem ugotowanym według przepisu na opakowaniu. Piec 15min w 200stopniach. ', 0),
+ (6, 'Placki Bananowe', '    1 średniej wielkości banan, najlepiej mocno dojrzały
+    2 jajka (rozmiar M)
+    2 łyżki mąki gryczanej, z ciecierzycy lub jaglanej (lub 1 łyżka mąki i 1 łyżka kakao na placuszki kakaowe)
+    olej kokosowy lub inny do smażenia np. rzepakowy ', 'Banana obrać ze skórki i rozgnieść widelcem na papkę.
+    Wbić jajka i roztrzepać widelcem. Wmieszać mąkę. (Można również wszystko razem zmiksować blenderem).
+    Na nieprzywierającej patelni rozgrzać niewielką ilość oleju. Nakładać po ok. 1,5 łyżki ciasta. Smażyć placuszki na średniej mocy palnika z obu stron na złoty kolor. Przewracać szeroką łopatką.
+    Podawać najlepiej od razu na ciepło. ', 0),
 
 
 
- (2, 'Skrzydełka w ryżu', '    skrzydełka z kurczaka, 1 kg
-    ryż , 400 g
-    cebula, 115 g
-    czosnek, 15 g
-    papryka słodka, 2 łyżecz.
+ (2, 'Filet z kurczaka w sosie pomidorowym', '    4 łyżki oleju
+    2 ząbki czosnku
+    2 łyżeczki papryki słodkiej w proszku
+    ½ łyżeczki kardamonu
+    sól, pieprz.
 
-    pieprz, 0.5 łyżecz.
-    wegeta, 2 łyżecz.
-    keczup, 6 łyżk.
-    masło, 100 g
-    woda, 6 szkl.', 'Przygotowanie:Ryż rozsypać do naczynia żaroodpornego, na ryż ułożyć cebule pokrojoną w drobną kostkę + kurczak (przyprawiamy w przyprawie do kurczaka) wszystko to zalewamy zalewą. Piec 50-60 min w tem. 180stopni.Zalewa:6 szklanek wody0,5 kostki masłakeczupczosnekpapryka To wszystko zagotować i zalać tym kurczaka ', 0),
+        2 cebule
+    500g pulpy pomidorowej (sosu pomidorowego)
+    100g śmietany do zup i sosów lub słodkiej śmietany 30- 36%
+    sól, pieprz, kardamon, gałka muszkatołowa, cukier ', ' Piersi z kurczaka oczyścić i pokroić w duże kawałki.
+    2 ząbki czosnku przecisnąć przez praskę. Wymieszać z olejem, papryką, kardamonem, solą i pieprzem. Dodać kurczaka, wymieszać i włożyć do lodówki na minimum 1 godzinę.
+    Cebule obrać i pokroić w kostkę.
+    Mięso podsmażyć razem z cebulą. Dodać pulpę pomidorową i gotować parę minut na małym ogniu, pod przykryciem, aż mięso będzie miękkie. Na końcu dodać śmietanę. Doprawić solą, pieprzem, kardamonem, gałką muszkatołową i cukrem do smaku.
+    Podawać z ryżem. ', 0),
 
 
 
@@ -68,23 +75,42 @@ VALUES
     mleko, 2 szkl.
     mąka , 1.5 szkl.', 'Ziemniaki obrać , po czym ugotować , przestudzić i razem z białym serem przepuścić przez maszynkę do mięsa . cebulę obrać , posiekać , podsmażyć na oleju , ostudzić i wymieszać z masą serową . farsz doprawić do smaku solą oraz pieprzem .Z podanych składników przygotować ciasto o jednolitej konsystencji , a następnie na rozgrzanym oleju usmażyć cienkie naleśniki . Na placki nałożyć przygotowany farsz serowy i zwinąć , tworząc krokiety . Przed podaniem zrumienić na rozgrzanym oleju . ', 0),
 
-  (4, 'Rolada z dorsza', '    filet z dorsza, 1 kg
-    kajzerki , 1 szt.
-    mleko, 100 ml
-    cebula, 8 dag
+  (4, 'Ryba zapiekana z jabłkiem', '    4 filety rybne
+    400g pieczarek
+    2 średnie cebule
+    1 jabłko
+    200g słodkiej, płynnej śmietany 30- 36%
+    200g startego sera żółtego
+    1 jajko
+    bułka tarta
+    mąka
+    sól, pieprz
+    olej do smażenia', 'Filety rybne opłukać, osuszyć ręcznikiem papierowym, posolić i popieprzyć.
+    Jajko rozkłócić. Rybę panierować w mące, jajku i bułce tartej. Usmażyć na oleju.
+    Usmażone ryby ułożyć w naczyniu żaroodpornym.
+    Cebule obrać i pokroić w kostkę.
+    Pieczarki oczyścić i pokroić w plasterki.
+    Cebule i pieczarki usmażyć na niewielkiej ilości oleju. Doprawić solą i pieprzem. Wyłożyć na rybę.
+    Jabłko umyć i pokroić w cienkie plasterki. Ułożyć na pieczarkach.
+    Na plasterki jabłka wyłożyć ser żółty wymieszany ze śmietaną.
+    Piec w nagrzanym piekarniku ok. 30 minut w temperaturze 180°C.
+    Podawać z ryżem.. ', 0),
 
-    masło, 4 dag
-    sól, 1 łyżecz.
-    pieprz, 2 szczypta
-    włoszczyzna, 30 dag', 'Włoszczyznę obieramy , myjemy i kroimy . Bułkę namaczamy w mleku , odciskamy . Cebulę siekamy i rumienimy na maśle . Rybę mielimy z bułką . Dodajemy cebulę i jajko . Doprawiamy i wyrabiamy . Przekładamy na wilgotne płótno , formujemy wałek . Zwijamy , końce zawiązujemy .2 . Warzywa wkładamy do brytfanny , zalewamy wrzącą wodą i wkładamy rybę . Gotujemy na małym ogniu około 1 godziny . Studzimy w wywarze . Dorsza wyjmujemy , odwijamy i kroimy w około 1,5 cm plastry . ', 0),
-
-  (5, 'Sałatka śledziowa z jabłkiem', '    śledź, 1 szt.
-    cebula, 4 szt.
-    jabłko, 2 szt.
-
-    majonez, 1 szt.
-    mielony pieprz, 1 szt.
-     ', 'Śledzie marynowane pokroić w kawałki. Cebulę pokroić w paski, sparzyć, odcedzić i wystudzić. Jabłka obrać i zetrzeć na tarce na grubych oczkach. Połączyć z cebulą. Dodać majonez.Śledzie przełożyć do salaterki, polać masą majonezową, posypać pieprzem i udekorować zieleniną. ', 0);
+  (5, 'Sałatka z awokado i szpinakiem', '    100 g świeżego szpinaku "Baby"
+    100 g pomidorków koktajlowych
+    6 cienkich plasterków boczku
+    pół małej cebuli
+    pół awokado
+    1 łyżka soku z cytryny
+         ', 'Szpinak przełożyć na durszlak i przepłukać pod zimną wodą. Osuszyć i oderwać ogonki.
+    Pół cebuli obrać i pokroić w drobną kostkę. Odstawić na bok.
+    Plasterki boczku usmażyć z obu stron na suchej patelni. Boczek przełożyć na talerz.
+    Na tej samej patelni, na wytworzonym tłuszczu, zrumienić pokrojoną cebulę.
+    Pomidorki umyć i pokroić na ćwiartki.
+    Miąższ z połowy awokado pokroić w kostkę i skropić sokiem z cytryny.
+    Przygotować sos winegret: Do miseczki wlać ocet. Dodać miód, wodę, sól i pieprz. Wymieszać. Następnie wlewać stopniowo oliwę, mieszając, a na końcu dodać podsmażoną cebulę.
+    Na trzech talerzach rozłożyć szpinak, na nim pokrojone pomidorki i awokado. Polać sosem. Na wierzch ułożyć po dwa plasterki boczku.
+    Podawać najlepiej od razu. ', 0);
 
 
 

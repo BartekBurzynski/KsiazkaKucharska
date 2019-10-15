@@ -1,6 +1,7 @@
-package pl.al.zadanie_aplickaja_ksiazka_kucharska;
+package pl.bb.ksiazka_kucharska.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import pl.bb.ksiazka_kucharska.model.Recipe;
 
 public interface RecipeRepository extends JpaRepository<Recipe, Long> {
 }
